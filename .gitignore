@@ -1,0 +1,83 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+# Large training outputs
+outputs/
+checkpoints/
+*.pt
+*.pth
+
+
+# ==============================
+# Vivado
+# ==============================
+
+*.jou
+*.log
+*.str
+
+.Xil/
+.cache/
+.gen/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+
+*.xpr.zip
+
+# Generated bitstream / hardware export
+*.bit
+*.bin
+*.hdf
+*.sysdef
+
+
+# ==============================
+# Vivado HLS
+# ==============================
+
+solution*/csim/
+solution*/sim/
+solution*/syn/
+solution*/impl/
+solution*/.autopilot/
+solution*/.tcls/
+
+*.aps
+*.directive
+*.funcunit
+
+
+# ==============================
+# Xilinx SDK
+# ==============================
+
+Debug/
+Release/
+
+*_bsp/
+*_hw_platform_*/
+
+.metadata/
+
+
+# ==============================
+# OS / IDE
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/

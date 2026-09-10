@@ -1,0 +1,5 @@
+Cortex-A9
+bare-metal
+GCC -O2
+1000 measured frames
+10 warm-up frames
